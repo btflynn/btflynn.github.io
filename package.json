@@ -2,7 +2,6 @@
   "name": "btflynn.github.io",
   "version": "0.1.0",
   "source": "src/index.html",
-  "private": true,
   "scripts": {
     "lint": "eslint src --ignore-path .gitignore",
     "check-types": "tsc --project tsconfig.json --pretty --noEmit"
