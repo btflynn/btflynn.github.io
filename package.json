@@ -1,9 +1,10 @@
 {
-  "name": "btflynn",
+  "name": "btflynn.github.io",
   "version": "0.1.0",
   "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src --ignore-path .gitignore",
+    "check-types": "tsc --project tsconfig.json --pretty --noEmit"
   },
   "keywords": [],
   "author": "Brandon Flynn",
